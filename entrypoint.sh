@@ -8,5 +8,5 @@ if [ "$USE_NGROK" = "true" ]; then
   ngrok http 8000 --log stdout
 else
   echo "🚀 Запуск без ngrok"
-  uvicorn main:app --host 0.0.0.0 --port 8000
+  uvicorn main:app --host 0.0.0.0 --port 8000 --workers 1
 fi
