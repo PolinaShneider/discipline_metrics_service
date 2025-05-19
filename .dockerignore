@@ -1,0 +1,36 @@
+# Кеши Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Jupyter/Google Colab
+*.ipynb
+.ipynb_checkpoints/
+
+# Системные и редакторские
+.DS_Store
+.vscode/
+.idea/
+
+# Секреты
+.env
+*.env
+*.secret
+
+# Кеши pip и модели
+~/.cache/
+.cache/
+venv/
+.ngrok*
+ngrok.yml
+
+# Git
+.git/
+.gitignore
